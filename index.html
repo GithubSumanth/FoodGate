@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Rubik:wght@300;400;500;600;700;800;900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ICONS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <title>Food Gate</title>
+  </head>
+  <body>
+    <div class="nav-btn-box">
+      <div class="expander">
+        <div class="line line--1"></div>
+        <div class="line line--2"></div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="nav-bg-filter"></div>
+      <ul class="nav__container">
+        <li class="nav__list"><a href="#" class="nav__link">Home</a></li>
+        <li class="nav__list"><a href="#" class="nav__link">Restaurant</a></li>
+        <li class="nav__list"><a href="#" class="nav__link">Food</a></li>
+        <li class="nav__list"><a href="#" class="nav__link">Offers</a></li>
+        <li class="nav__list"><a href="#" class="nav__link">Help</a></li>
+      </ul>
+    </nav>
+    <div class="header--sign header--sign-up">
+      <form class="sign-up-container">
+        <div class="bg--sign">
+          <div class="sign-btn-box">
+            <div class="sign-line sign-line--1"></div>
+            <div class="sign-line sign-line--2"></div>
+          </div>
+        </div>
+        <div class="form-component-box">
+          <!-- <label for="username" class="label label-username">Username</label> -->
+          <input
+            type="text"
+            id="username"
+            placeholder="Username"
+            class="input"
+          />
+          <!-- <label for="email" class="label label-email">Username</label> -->
+          <input type="email" id="email" placeholder="Email" class="input" />
+          <!-- <label for="set-password" class="label /label-password"
+          >Set Password</label
+          > -->
+          <input
+            type="password"
+            id="set-password"
+            placeholder="Set Password"
+            class="input"
+          />
+          <!-- <label for="confirm-password" class="label label-password"
+          >Confirm Password</label
+          > -->
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Confirm Password"
+            class="input"
+          />
+          <button type="submit" class="btn btn--submit">Create Account</button>
+        </div>
+      </form>
+    </div>
+    <div class="header--sign header--sign-in">
+      <form class="sign-up-container">
+        <div class="bg--sign">
+          <div class="sign-btn-box">
+            <div class="sign-line sign-line--1"></div>
+            <div class="sign-line sign-line--2"></div>
+          </div>
+        </div>
+        <div class="form-component-box">
+          <!-- <label for="username" class="label label-username">Username</label> -->
+          <input
+            type="text"
+            id="username"
+            placeholder="Username"
+            class="input"
+          />
+          <!-- <label for="email" class="label label-email">Username</label> -->
+          <input type="email" id="email" placeholder="Email" class="input" />
+          <!-- <label for="password" class="label label-password">Password</label> -->
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            class="input"
+          />
+
+          <button type="submit" class="btn btn--submit">Log in</button>
+        </div>
+      </form>
+    </div>
+    <header class="header">
+      <div class="header__back-image"></div>
+      <div class="header__text-content">
+        <h1 class="heading heading--primary">
+          <span class="heading--primary__main">Food Gate</span>
+          <span class="heading--primary__sub">Food Delivered in no time</span>
+        </h1>
+        <div class="container container--search">
+          <input
+            type="text"
+            class="search-box"
+            placeholder="Enter  your  location"
+          />
+          <button class="btn btn--search">Search</button>
+        </div>
+        <div class="container container--sign">
+          <a href="#" class="btn btn--sign btn--sign-up">Sign-up</a>
+          <a href="#" class="btn btn--sign btn--sign-in">Log-in</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section--restaurant">
+        <h2 class="heading heading--secondary">Popular Restaurants</h2>
+        <!-- start -->
+        <div class="container--restaurant">
+          <!-- card satrt -->
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card__img-box card__img-box--1"></div>
+              <div class="text-content">
+                <h4 class="heading--quaternary heading--hotel">Hotel Name</h4>
+                <p class="para para--description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
+                  accusamus.
+                </p>
+                <p class="para para--offer">60% off</p>
+                <p class="para para--rating">4 starts</p>
+              </div>
+            </div>
+          </a>
+          <!-- card end -->
+
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card__img-box card__img-box--2"></div>
+              <div class="text-content">
+                <h4 class="heading--quaternary heading--hotel">Hotel Name</h4>
+                <p class="para para--description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
+                  accusamus.
+                </p>
+                <p class="para para--offer">60% off</p>
+                <p class="para para--rating">4 starts</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card__img-box card__img-box--3"></div>
+              <div class="text-content">
+                <h4 class="heading--quaternary heading--hotel">Hotel Name</h4>
+                <p class="para para--description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
+                  accusamus.
+                </p>
+                <p class="para para--offer">60% off</p>
+                <p class="para para--rating">4 starts</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card__img-box card__img-box--4"></div>
+              <div class="text-content">
+                <h4 class="heading--quaternary heading--hotel">Hotel Name</h4>
+                <p class="para para--description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
+                  accusamus.
+                </p>
+                <p class="para para--offer">60% off</p>
+                <p class="para para--rating">4 starts</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card__img-box card__img-box--5"></div>
+              <div class="text-content">
+                <h4 class="heading--quaternary heading--hotel">Hotel Name</h4>
+                <p class="para para--description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
+                  accusamus.
+                </p>
+                <p class="para para--offer">60% off</p>
+                <p class="para para--rating">4 starts</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card-link">
+            <div class="card">
+              <div class="card__img-box card__img-box--6"></div>
+              <div class="text-content">
+                <h4 class="heading--quaternary heading--hotel">Hotel Name</h4>
+                <p class="para para--description">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
+                  accusamus.
+                </p>
+                <p class="para para--offer">60% off</p>
+                <p class="para para--rating">4 starts</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- end -->
+      </section>
+
+      <section class="section section--food">
+        <h2 class="heading heading--secondary">Popular Food Items</h2>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <li class="carousel-card carousel-card--first">
+              <a href="#" class="card-link">
+                <div class="card card--cara">
+                  <div class="card__img-box card__img-box--1"></div>
+                  <div class="text-content">
+                    <h4 class="heading--quaternary heading--hotel">
+                      Hotel Name
+                    </h4>
+                    <p class="para para--description">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Eum, accusamus.
+                    </p>
+                    <p class="para para--offer">60% off</p>
+                    <p class="para para--rating">4 starts</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="carousel-card carousel-card--second">
+              <a href="#" class="card-link">
+                <div class="card card--cara">
+                  <div class="card__img-box card__img-box--2"></div>
+                  <div class="text-content">
+                    <h4 class="heading--quaternary heading--hotel">
+                      Hotel Name
+                    </h4>
+                    <p class="para para--description">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Eum, accusamus.
+                    </p>
+                    <p class="para para--offer">60% off</p>
+                    <p class="para para--rating">4 starts</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="carousel-card carousel-card--third">
+              <a href="#" class="card-link">
+                <div class="card card--cara">
+                  <div class="card__img-box card__img-box--3"></div>
+                  <div class="text-content">
+                    <h4 class="heading--quaternary heading--hotel">
+                      Hotel Name
+                    </h4>
+                    <p class="para para--description">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Eum, accusamus.
+                    </p>
+                    <p class="para para--offer">60% off</p>
+                    <p class="para para--rating">4 starts</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="carousel-card">
+              <a href="#" class="card-link">
+                <div class="card card--cara">
+                  <div class="card__img-box card__img-box--4"></div>
+                  <div class="text-content">
+                    <h4 class="heading--quaternary heading--hotel">
+                      Hotel Name
+                    </h4>
+                    <p class="para para--description">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Eum, accusamus.
+                    </p>
+                    <p class="para para--offer">60% off</p>
+                    <p class="para para--rating">4 starts</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="carousel-card">
+              <a href="#" class="card-link">
+                <div class="card card--cara">
+                  <div class="card__img-box card__img-box--5"></div>
+                  <div class="text-content">
+                    <h4 class="heading--quaternary heading--hotel">
+                      Hotel Name
+                    </h4>
+                    <p class="para para--description">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Eum, accusamus.
+                    </p>
+                    <p class="para para--offer">60% off</p>
+                    <p class="para para--rating">4 starts</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="carousel-card">
+              <a href="#" class="card-link">
+                <div class="card card--cara">
+                  <div class="card__img-box card__img-box--6"></div>
+                  <div class="text-content">
+                    <h4 class="heading--quaternary heading--hotel">
+                      Hotel Name
+                    </h4>
+                    <p class="para para--description">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Eum, accusamus.
+                    </p>
+                    <p class="para para--offer">60% off</p>
+                    <p class="para para--rating">4 starts</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="carousel-button carousel-button--prev">
+            <i class="fas fa-arrow-left"></i>
+          </div>
+          <div class="carousel-button carousel-button--next">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--mobile">
+        <div class="mobile__container mobile__container--1">
+          <img
+            src="IMAGES/mobile-top.png"
+            alt="mobile"
+            class="img-mobile img-mobile--1"
+          />
+        </div>
+        <div class="mobile__container mobile__container--2">
+          <img
+            src="IMAGES/mobile-bottom.png"
+            alt="mobile"
+            class="img-mobile img-mobile--2"
+          />
+        </div>
+        <div class="mobile__text-content">
+          <h3 class="heading--secondary-alt">Restaurants in your pocket</h3>
+          <p class="para">
+            You can download our app for both Android and IOS. Order from your
+            favorite restaurants & track on the go, with the all-new
+            <strong>FOOD GATE</strong>
+            app.
+          </p>
+          <div class="container--btn-mobile">
+            <a href="#" class="btn btn--mobile btn--mobile--1"
+              ><i class="fab fa-google-play"></i>Play Store</a
+            >
+            <a href="#" class="btn btn--mobile btn--mobile--2"
+              ><i class="fab fa-apple"></i>App Store</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
